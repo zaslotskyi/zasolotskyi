@@ -21,31 +21,31 @@ print(can_be_value(value))
 #2
 
 
-# while True:
-#     first_number = int(input("Enter first number: "))
-#     math_operation = input("Enter mathematical operation: ")
-#     second_number = int(input("Enter second number "))
-#     if math_operation == "/" and second_number == 0:
-#         print("You cannot divide by zero")
-#     elif math_operation != "-" and math_operation != "+" and math_operation != "*" and math_operation != "/":
-#         print(f"{math_operation} is not a mathematical operation")
-#     else:
-#         if math_operation == "*":
-#             result = first_number * second_number
-#         elif math_operation == "+":
-#             result = first_number + second_number
-#         elif math_operation == "-":
-#             result = first_number - second_number
-#         elif math_operation == "/" and second_number != 0:
-#             result = first_number / second_number
-#         print(result)
-#     repeat = input("Do you want continue?(yes/no): ")
-#     if repeat == "yes":
-#         continue
-#     elif repeat == "no":
-#         break
-#     else:
-#         break
+while True:
+    first_number = int(input("Enter first number: "))
+    math_operation = input("Enter mathematical operation: ")
+    second_number = int(input("Enter second number "))
+    if math_operation == "/" and second_number == 0:
+        print("You cannot divide by zero")
+    elif math_operation != "-" and math_operation != "+" and math_operation != "*" and math_operation != "/":
+        print(f"{math_operation} is not a mathematical operation")
+    else:
+        if math_operation == "*":
+            result = first_number * second_number
+        elif math_operation == "+":
+            result = first_number + second_number
+        elif math_operation == "-":
+            result = first_number - second_number
+        elif math_operation == "/" and second_number != 0:
+            result = first_number / second_number
+        print(result)
+    repeat = input("Do you want continue?(yes/no): ")
+    if repeat == "yes":
+        continue
+    elif repeat == "no":
+        break
+    else:
+        break
 
 
 
