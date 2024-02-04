@@ -55,7 +55,7 @@ print("A dictionary with a key and value which not in the second dictionary: ",t
 com_keys = first_dict.keys() & second_dict
 third_dict = first_dict.copy()
 third_dict.update(second_dict)
-third_dict.update({key: [first_dict[key], second_dict[key]] for key in com_keys})#333
+third_dict.update({key: [first_dict[key], second_dict[key]] for key in com_keys})
 print("United dictionaries: ", third_dict)
 
 
