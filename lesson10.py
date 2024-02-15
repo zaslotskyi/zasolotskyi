@@ -1,6 +1,5 @@
 #1
 from inspect import isgenerator
-import sys
 def pow(x):
     return x ** 2
 
